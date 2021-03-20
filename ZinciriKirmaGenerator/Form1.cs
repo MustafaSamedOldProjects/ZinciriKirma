@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -20,6 +21,11 @@ namespace ZinciriKirmaGenerator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (dtpEnd.Value<dtpStart.Value)
+            {
+                MessageBox.Show("BitişTarihi Başlangıç tarihinden daha erken olamaz. Ve ya aynı olamaz.");
+                return;
+            }
             var path = openFileDialog1.ShowDialog();
             var fullpath = openFileDialog1.InitialDirectory + openFileDialog1.FileName;
             var html = "<!DOCTYPE html><html lang=\"en\"><head>    <meta charset=\"UTF-8\">    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">    <title>Document</title></head><body>    <table style=\"margin: auto auto;border: 3px solid rgba(33, 77, 158, 0.472);border-collapse: collapse;  \"> ";
