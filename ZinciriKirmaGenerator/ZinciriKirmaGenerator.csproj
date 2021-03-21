@@ -7,4 +7,8 @@
     <ApplicationIcon>diagram_v2_12.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Setup\" />
+  </ItemGroup>
+
 </Project>
