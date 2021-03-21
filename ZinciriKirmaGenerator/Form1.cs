@@ -26,20 +26,20 @@ namespace ZinciriKirmaGenerator
                 MessageBox.Show("BitişTarihi Başlangıç tarihinden daha erken olamaz. Ve ya aynı olamaz.");
                 return;
             }
-            var path = openFileDialog1.ShowDialog();
-            var fullpath = openFileDialog1.InitialDirectory + openFileDialog1.FileName;
+            var path = folderBrowserDialog1.ShowDialog();
+            var fullpath = folderBrowserDialog1.SelectedPath + "\\ZinciriKırma.html";
             var html = "<!DOCTYPE html><html lang=\"en\"><head>    <meta charset=\"UTF-8\">    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">    <title>Document</title></head><body>    <table style=\"margin: auto auto;border: 3px solid rgba(33, 77, 158, 0.472);border-collapse: collapse;  \"> ";
             var günFark =(dtpEnd.Value - dtpStart.Value).Days+1;
-            var ustLoop = günFark / 12;
+            var ustLoop = günFark / 15;
             var günce = dtpStart.Value;
 
             for (int i = 0; i < ustLoop; i++)
             {
                 html += "<tr  style=\"border: 1px solid red;\">";
-                for (int K = 0; K < 12; K++)
+                for (int K = 0; K < 15; K++)
                 {
                     html += " <th style=\"border: 2px solid red;\">";
-                    html += "<div class=\"tarih\" onclick=\"tikle(this)\" style=\"min-height: 45px; min-width: 49px; position: relative ;\">";
+                    html += "<div class=\"tarih\" onclick=\"tikle(this)\" style=\"min-height: 37px; min-width: 42px; position: relative ;\">";
                     var gün = günce.Day;
                     var ayy = günce.Month;
                     var yıl = günce.Year;
@@ -55,7 +55,7 @@ namespace ZinciriKirmaGenerator
 
             }
 
-            for (int i = 0; i < günFark % 12; i++)
+            for (int i = 0; i < günFark % 15; i++)
             {
                     html += " <th style=\"border: 2px solid red;\">";
                     html += "<div class=\"tarih\" onclick=\"tikle(this)\" style=\"min-height: 45px; min-width: 49px; position: relative ;\">";
