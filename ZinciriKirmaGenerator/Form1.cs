@@ -9,7 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace ZinciriKirmaGenerator
 {
     public partial class Form1 : Form
@@ -81,6 +80,19 @@ namespace ZinciriKirmaGenerator
             html += "</table></body></html>";
           
             File.WriteAllText(fullpath, html);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            var path = folderBrowserDialog1.ShowDialog();
+            var fullpath = folderBrowserDialog1.SelectedPath + "\\ZinciriKırma.html";
+            // Create a PDF from an existing HTML using C#
+            var Renderer = new IronPdf.HtmlToPdf();
+            var PDF = Renderer.RenderHTMLFileAsPdf(fullpath);
+            var OutputPath = folderBrowserDialog1.SelectedPath + "\\ZinciriKırma.pdf";
+            PDF.SaveAs(OutputPath);
+           
         }
     }
 }
