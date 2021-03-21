@@ -1,3 +1,3 @@
 # ZinciriKirma
 
-Setup dosyanını "ZinciriKırmaGenerator" dosyası içerisinde "Setup" dosyasında bulunmaktadır, deneyebilirsiniz.
+Setup dosyanını "ZinciriKirmaGenerator" dosyası içerisinde "Setup" dosyasında bulunmaktadır, deneyebilirsiniz.
