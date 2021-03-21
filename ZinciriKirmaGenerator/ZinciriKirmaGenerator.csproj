@@ -7,8 +7,4 @@
     <ApplicationIcon>diagram_v2_12.ico</ApplicationIcon>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="IronPdf" Version="2021.3.1" />
-  </ItemGroup>
-
 </Project>

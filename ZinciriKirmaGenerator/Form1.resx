@@ -62,7 +62,7 @@
 Başlangıç ve bitiş tarihi seçin, "Olustur."a tıklayın.
 Oluturmak istediğiniz location seçtikten sonra "ZinciriKırma.html" dosyası seçtiğiniz bölgede oluşacaktır.
 ZinciriKırma.html dosyası istediğinz tarayıca açıp yazdırıp kullanabilirsiniz.
-Pdfye Dönüştür seçeneği ise opsiyonel ve deneyseldir. ZinciriKırma.html dosyasının locasyonunu seçtiğinizde "ZinciriKırma.pdf" dosyasını oluşturmaktadır.</value>
+</value>
   </data>
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
