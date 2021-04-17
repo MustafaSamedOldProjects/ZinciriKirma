@@ -38,6 +38,7 @@ namespace ZinciriKirmaGenerator
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -45,7 +46,7 @@ namespace ZinciriKirmaGenerator
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(57, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 19);
+            this.label1.Size = new System.Drawing.Size(118, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Başlangıç Tarihi :";
             // 
@@ -70,7 +71,7 @@ namespace ZinciriKirmaGenerator
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(57, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 19);
+            this.label2.Size = new System.Drawing.Size(79, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Bitiş Tarihi:";
             // 
@@ -98,11 +99,21 @@ namespace ZinciriKirmaGenerator
             this.textBox1.TabIndex = 7;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(280, 255);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(288, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "MustafaSamedYeyin tarafından yazılmıştır.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(580, 267);
+            this.ClientSize = new System.Drawing.Size(586, 282);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dtpEnd);
@@ -127,6 +138,7 @@ namespace ZinciriKirmaGenerator
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
     }
 }
 

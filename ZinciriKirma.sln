@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZinciriKirmaGenerator", "ZinciriKirmaGenerator\ZinciriKirmaGenerator.csproj", "{52D36ACA-275A-4427-9B15-16D22469A4AE}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{2B9E14F9-C5DF-4800-BB22-EEF870E5F372}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MustafaSamedYeyin", "MustafaSamedYeyin\MustafaSamedYeyin.vdproj", "{B8A0FED4-03A8-4850-AFE3-17F394965ADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{52D36ACA-275A-4427-9B15-16D22469A4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D36ACA-275A-4427-9B15-16D22469A4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D36ACA-275A-4427-9B15-16D22469A4AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B9E14F9-C5DF-4800-BB22-EEF870E5F372}.Debug|Any CPU.ActiveCfg = Debug
-		{2B9E14F9-C5DF-4800-BB22-EEF870E5F372}.Release|Any CPU.ActiveCfg = Release
+		{B8A0FED4-03A8-4850-AFE3-17F394965ADE}.Debug|Any CPU.ActiveCfg = Debug
+		{B8A0FED4-03A8-4850-AFE3-17F394965ADE}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
